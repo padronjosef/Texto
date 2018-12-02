@@ -1,0 +1,98 @@
+working directory (git add) -> staging area (git commit) -> git repository
+
+git init 				= iniciar un repositorio
+
+git .gitignore				= crea archivo olculto para ignorar archivos en el git
+
+git merge [nombreRama]			= mescla la rama en la que se este con la que se escriba
+git merge origin/master --allow-unrelated-histories	= mesclar la rama que se escribe con la rama y forzar
+
+git cherry-pick [SHA-1]			= mover el commit SHA-1 a la rama en la que se esta
+
+git remote add origin https o ssh	= agregar algo al repositorio de github
+git remote -v				= mirar el status
+git remote remove origin		= quitarlo
+
+git fetch origin master			= traer datos de "origin" de la rama "master"
+
+git pull origin master			= trae los cambios de "origin" de la rama "master" y hace un merge
+
+git push origin master			= envia los cambios al repositorio de "origin" a la rama "master"
+git push origin master --tags		= envia los tags
+git push origin RD			= envia la rama de nombre RD
+
+git chechout [nombreRama]		= moverse a la rama
+git checkout [SHA-1]			= moverse al commit
+git checkout --[nombreArchio.ext]	= borrar los cambios del archivo
+git checkout -b	[nombreRama]		= crear rama y moverse a ella
+
+git branch [nombreRama]			= se crea una rama nueva
+git branch -d				= borra rama
+git branch -D				= fuerza el borrado de la rama
+git branch -l				= listar ramas
+git branch -m [nombreRama] [nombreNuevo]= cambiar el nombre de las ramas
+
+git stash 				= guarda el stado de esa rama
+git stash list				= mirar todos los stash
+git stash drop stash@{0}		= borrar stash del numero entre los {}
+git stash apply				= aplicar el ultimo stash
+git stash apply	stash@{0}		= aplica el stash selecionado entre los {}
+
+git log					= muestra información sobre los commits enviados
+git log --oneline 			= poner todo mas resumido
+git log --oneline --graph		= poner todo mas resumido con *
+git log -1				= -1 es el numero del log
+
+git diff [commit o SHA-1]		= compara que ha cambiado entre la version actual y el commit
+git diff [commit/SHA-1 vs commit/SHA-1] = compara que ha cambiado entre la version 1 contra la version 2
+
+git status				= Muestra el estado de los archivos o directorios
+
+git touch [file or directory] 		= crear archivo
+
+git add [file or directory]		= agregar archivos del working directory -> staging area
+	-A				= agregar todo
+	-u 				= agrega archivos modificados y eliminados, pero NO los creados
+	 .   				= agrega los archivos creados y modificados, pero NO los eliminados
+	-n [file or directory]		= Simula el agregado de un archivo o directorio al Staging Area pero la verdad no lo hace
+
+git reset				= resetea el commit antes de guardarlo
+git commit -m  "comentario"		= para agregar nuevo commit (hay que hacer primero git add [file or firectory] )
+git commit -am "comentario"		= pero este solo funciona para los archivos modificado y eliminados, no para los recién agregados
+git git commit --amend			= concatena nuevos cambios a el ultimo commit
+git git commit --amend -m "comentario"	= igual al --amend pero cambiando comentario del ultimo commit
+	esc -> :wq
+
+git rm --cached	[file or directory]	= Elimina un archivo o carpeta del Staging Area y lo deja en el Working Directory
+git rm --f [file or directory] 		= Fuerza la eliminación de un archivo o carpeta del Staging Area tanto que 
+					  lo borra del Working Directory.
+
+git reset --soft  [SHA-1]		= elimina los cambios hasta el staging area
+git reset --mixed [SHA-1]		= elimina los cambios hasta el working area	borra los cambios del repositorio y del staging area
+git reset --hard  [SHA-1]		= regresa hasta el commit del [SHA-1]
+
+git tag 1.0 SHA-1			= hacer un tag ligera
+git tag -a 1.0 -m "version estable"	= hacer un tag anotada
+git tag -d				= borrar tags
+git tag -l				= ver todos los tags
+git tag -f -a 0.1 -m "comentario" SHA1	= renombrar tag
+	SHA-1 = 172f92b2254eb3a481611ace32f8a69919d0b51d
+
+
+ssh-keygen -t rsa -b 4096 -C "correo"	= crear llame ssd
+
+clip < ~/.ssh/id_rsa.pub	= para compiarse la llave en windows
+pbcopy < ~/.ssh/id_rsa.pub
+
+git config --global --edit
+git config --global --list
+
+issue_template.md			= asi se nombra el template de inssue para github
+pull_request_template.md		= asi se nombra el template de pull requests para github
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:padronjosef/CSS-Grid.git
+git push -u origin master

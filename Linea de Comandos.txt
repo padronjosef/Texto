@@ -1,0 +1,17 @@
+pwd = donde estoy					(working directory)
+ls  = lista los archivos				(LiSt)
+cd = moverse entre temarios				(temarios = carpetas)
+cd .. = subir temario
+
+banderas
+-l = lista todo hacia abajo (permite todas juntas)	(viene de long)
+-h = escribelo humanamente				(para humanos)
+-a = muestra los archivos que comiezan con .
+-s = clasifica los contenidos de los directorios por tamaños, con los ficheros más grandes en primer lugar
+-r = invierte el orden de la salida
+-r = Lista recursivamente los subdirectorios encontrados
+-t = ordenar por fecha de última modificación
+-u = ordenar por fecha de último acceso
+-x = presenta los ficheros por columnas
+-i = precede la salida con el número de i-node
+-f indica tipo: / directorio, * ejecutable, @ enlace simbólico.
