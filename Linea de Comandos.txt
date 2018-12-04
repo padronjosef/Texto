@@ -1,7 +1,51 @@
-pwd = donde estoy					(working directory)
-ls  = lista los archivos				(LiSt)
-cd = moverse entre temarios				(temarios = carpetas)
-cd .. = subir temario
+pwd      = donde estoy					(working directory)
+ls       = lista los archivos				(LiSt)
+cd       = moverse entre temarios			(temarios = carpetas)
+cd ..    = subir temario
+cp       = copia un archivo a otros directorios
+
+open     = abrir
+
+mkdir    = crea un directorio
+touch    = crea un archivo. Si no existe el archivo lo va a crear, y si existe le cambia la fecha de modificación
+mv       = mueve un archivo, te ayuda a modificarlo
+rm       = elimina archivos o links, no funciona para eliminar un directorio, para esto necesitas un poco más
+rm -rf   = elimina un directorio recursivamente
+
+pushd    = te permiten navegar entre dos directorios fácilmente.
+y popd 
+
+alias    = (alias "ll -ls") le pone un alias a -ls en este caso ll
+
+more     = te da las primeras líneas de lo que hay en el archivo
+cat      = imprime todo el contenido de un archivo en pantalla
+tail     = te muestra las últimas 10 líneas de un archivo. Puedes agregarle un número con el - y pedir más que 10 líneas
+
+which    = te donde la ubicacion de un ejecutable binario (ls, touch, mv, rm, etc)
+
+man      = es el manual de la terminal, puedes utilizarlo cuando tu quieras para entender qué hace un comando y sus banderas.
+
+top      = un administrador de tareas en la linea de comandos
+	PID = Procesor ID
+
+grep     = nos ayuda a encontrar cadenas de caracteres dentro de todos los archivos de la ruta que le demos, con expresiones regulares (grep -n -r . -e palabra)
+					-r: que sea recursivo				-n: numero de linea donde se encuentra la palabra en el archivo
+					-e: expresion regular				-i: no importa si es mayuscula o minuscula
+
+find     = busca, dentro del directorio que le digamos
+
+kill -9  = mata el proceso y no preguntes (kill -9 42336)
+
+
+curl    = emula un navegador. No es un browser como tal, hay uno para terminal pero este solo emula los requests (peticiones) y los trae.			curl 	[url]
+zip     = agrega o reemplaza las entradas de un archivo zip de la lista, que puede incluir el nombre especial para comprimir la entrada.			zip 	[nombre.zip] [archivo a comprimir]
+tar     = es un comando similar a zip, junta varios archivos en uno solo sin comprimirlos. Después se le dicta un algoritmo de compresión, que es zip.	upzip 	[archivo]
+																					-vl no descomprime sino
+																					que ve lo que hay adentro
+
+whoami  = te dice cuál es el usuario que está operando en ese momento
+	r–: permiso de lectura			rw-: permiso de lectura y escritura		rwx: permiso de lectura, escritura y ejecución
+
 
 banderas
 -l = lista todo hacia abajo (permite todas juntas)	(viene de long)
@@ -15,3 +59,17 @@ banderas
 -x = presenta los ficheros por columnas
 -i = precede la salida con el número de i-node
 -f indica tipo: / directorio, * ejecutable, @ enlace simbólico.
+
+
+comandos de acceso directo
+ctrl + l = limpia linea de comandos
+ctrl + r = prompt de busqueda de comandos ya escritos
+ctrl + c = termina la ejecucion del proceso actual
+
+
+Permisos de usuarios
+--- -> 0	r-- -> 4	rw- -> 6
+–x- -> 1	-wx -> 3	rwx -> 7
+-w- -> 2	r-x -> 5
+
+r: permiso de lectura		w: permiso de escritura		x: permiso de ejecucion
