@@ -1,0 +1,16 @@
+?	Un DBMS (database management system) o en español SGBD (Sistema manejador de bases de datos) 
+es una colección de software que le permite al usuario administrar una base de datos, los DBMS más destacados son:
+
+o	AWS (https://aws.amazon.com/es/products/databases/)
+o	Azure (https://azure.microsoft.com/es-es/)
+o	Google cloud (https://developers.google.com/cloud-sql/docs/introduction)
+o	Oracle database as service (https://www.oracle.com/database/solutions/private-dbaas.html)
+o	IBM cloud
+o	Cloud9.io (https://aws.amazon.com/es/cloud9/?origin=c9io)
+o	DigitalOcean (https://platzi.com/cursos/digital-ocean/)
+o	Heroku (https://www.heroku.com/)
+o	MongoLab (https://mongolab.com/company/)
+o	EnterpriseDB (https://www.enterprisedb.com/)
+o	Garantia Data (https://redislabs.com/)
+o	Rackspace (https://www.rackspace.com/es-co/cloud/databases)
+o	SAP (https://www.sap.com/trends/cloud.html)
