@@ -1,3 +1,5 @@
+Crtl + z = para parar un proceso
+
 pwd      = donde estoy					(working directory)
 ls       = lista los archivos				(LiSt)
 cd       = moverse entre temarios			(temarios = carpetas)

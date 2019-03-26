@@ -1,0 +1,12 @@
+Si la pagina de PlatziVideo que estamos haciendo la estas visualizando en LiveServer, puedes
+verla desde cualquier otro dispositivo.
+
+Veras que tu pagina se visualiza en una url como localhost:3000, entonces para acceder a esa
+direccion en un celular solo tienes que abrir un navegador e ingresar la Direccion IP de tu
+computadora seguido de :3000 o el puerto que este en tu caso.
+
+En mi caso me meteria en esta url: 192.168.1.59:3000
+
+ipconfig=			para ver la direccion ip en la terminar (direccion IPv4)
+
+https://www.testdevelocidad.es/windows/conocer-la-ip-ordenador-configurarla-manualmente-windows-10/
