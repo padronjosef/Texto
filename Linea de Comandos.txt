@@ -9,23 +9,23 @@ cp       = copia un archivo a otros directorios
 open     = abrir
 
 mkdir    = crea un directorio
-touch    = crea un archivo. Si no existe el archivo lo va a crear, y si existe le cambia la fecha de modificación
+touch    = crea un archivo. Si no existe el archivo lo va a crear, y si existe le cambia la fecha de modificaciï¿½n
 mv       = mueve un archivo, te ayuda a modificarlo
-rm       = elimina archivos o links, no funciona para eliminar un directorio, para esto necesitas un poco más
+rm       = elimina archivos o links, no funciona para eliminar un directorio, para esto necesitas un poco mï¿½s
 rm -rf   = elimina un directorio recursivamente
 
-pushd    = te permiten navegar entre dos directorios fácilmente.
+pushd    = te permiten navegar entre dos directorios fï¿½cilmente.
 y popd 
 
 alias    = (alias "ll -ls") le pone un alias a -ls en este caso ll
 
-more     = te da las primeras líneas de lo que hay en el archivo
+more     = te da las primeras lï¿½neas de lo que hay en el archivo
 cat      = imprime todo el contenido de un archivo en pantalla
-tail     = te muestra las últimas 10 líneas de un archivo. Puedes agregarle un número con el - y pedir más que 10 líneas
+tail     = te muestra las ï¿½ltimas 10 lï¿½neas de un archivo. Puedes agregarle un nï¿½mero con el - y pedir mï¿½s que 10 lï¿½neas
 
 which    = te donde la ubicacion de un ejecutable binario (ls, touch, mv, rm, etc)
 
-man      = es el manual de la terminal, puedes utilizarlo cuando tu quieras para entender qué hace un comando y sus banderas.
+man      = es el manual de la terminal, puedes utilizarlo cuando tu quieras para entender quï¿½ hace un comando y sus banderas.
 
 top      = un administrador de tareas en la linea de comandos
 	PID = Procesor ID
@@ -41,26 +41,26 @@ kill -9  = mata el proceso y no preguntes (kill -9 42336)
 
 curl    = emula un navegador. No es un browser como tal, hay uno para terminal pero este solo emula los requests (peticiones) y los trae.			curl 	[url]
 zip     = agrega o reemplaza las entradas de un archivo zip de la lista, que puede incluir el nombre especial para comprimir la entrada.			zip 	[nombre.zip] [archivo a comprimir]
-tar     = es un comando similar a zip, junta varios archivos en uno solo sin comprimirlos. Después se le dicta un algoritmo de compresión, que es zip.	upzip 	[archivo]
+tar     = es un comando similar a zip, junta varios archivos en uno solo sin comprimirlos. Despuï¿½s se le dicta un algoritmo de compresiï¿½n, que es zip.	upzip 	[archivo]
 																					-vl no descomprime sino
 																					que ve lo que hay adentro
 
-whoami  = te dice cuál es el usuario que está operando en ese momento
-	r–: permiso de lectura			rw-: permiso de lectura y escritura		rwx: permiso de lectura, escritura y ejecución
+whoami  = te dice cuï¿½l es el usuario que estï¿½ operando en ese momento
+	rï¿½: permiso de lectura			rw-: permiso de lectura y escritura		rwx: permiso de lectura, escritura y ejecuciï¿½n
 
 
 banderas
 -l = lista todo hacia abajo (permite todas juntas)	(viene de long)
 -h = escribelo humanamente				(para humanos)
 -a = muestra los archivos que comiezan con .
--s = clasifica los contenidos de los directorios por tamaños, con los ficheros más grandes en primer lugar
+-s = clasifica los contenidos de los directorios por tamaï¿½os, con los ficheros mï¿½s grandes en primer lugar
 -r = invierte el orden de la salida
 -r = Lista recursivamente los subdirectorios encontrados
--t = ordenar por fecha de última modificación
--u = ordenar por fecha de último acceso
+-t = ordenar por fecha de ï¿½ltima modificaciï¿½n
+-u = ordenar por fecha de ï¿½ltimo acceso
 -x = presenta los ficheros por columnas
--i = precede la salida con el número de i-node
--f indica tipo: / directorio, * ejecutable, @ enlace simbólico.
+-i = precede la salida con el nï¿½mero de i-node
+-f indica tipo: / directorio, * ejecutable, @ enlace simbï¿½lico.
 
 
 comandos de acceso directo
@@ -71,7 +71,7 @@ ctrl + c = termina la ejecucion del proceso actual
 
 Permisos de usuarios
 --- -> 0	r-- -> 4	rw- -> 6
-–x- -> 1	-wx -> 3	rwx -> 7
+ï¿½x- -> 1	-wx -> 3	rwx -> 7
 -w- -> 2	r-x -> 5
 
 r: permiso de lectura		w: permiso de escritura		x: permiso de ejecucion

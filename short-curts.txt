@@ -1,0 +1,111 @@
+Ctrl + A - Select All
+Ctrl + B - Bold
+Ctrl + C - Copy
+Ctrl + D - Fill
+Ctrl + F - Find
+Ctrl + G - Bold
+Ctrl + H - Replace
+Ctrl + I - Italic
+Ctrl + K - Insert a hyperlink
+Ctrl + N - New workbook
+Ctrl + O - Open
+Ctrl + P - Print
+Ctrl + R - Nothing right
+Ctrl + S - Save
+Ctrl + U - Underlined
+Ctrl + V - Paste
+Ctrl W - Close
+Ctrl + X - Cup
+Ctrl + Y - Repeat
+Ctrl + Z - Cancel
+F1 - Help
+F2 - Edition
+F3 - Paste the name
+F4 - Repeat the last action
+F4 - When entering a formula, switch between absolute / relative references
+F5 - Goto
+F6 - Next Pane
+F7 - Spell Check
+F8 - Extension of the mode
+F9 - Recalculate all workbooks
+F10 - Activate Menubar
+F11 - New graph
+F12 - Save As
+Ctrl +: - Insert the current time
+Ctrl +; - Insert the current date
+Ctrl + "- Copy the value of the cell above
+Ctrl + '- Copy the formula from the cell above
+Shift - Offset Adjustment for Additional Functions in the Excel Menu
+Shift + F1 - What is it?
+Shift + F2 - Edit cell comment
+Shift + F3 - Paste the function into the formula
+Shift + F4 - Search Next
+Shift + F5 - Find
+Shift + F6 - Previous Panel
+Shift + F8 - Add to the selection
+Shift + F9 - Calculate the active worksheet
+Shift + F10 - Popup menu display
+Shift + F11 - New spreadsheet
+Shift + F12 - Save
+Ctrl + F3 - Set name
+Ctrl + F4 - Close
+Ctrl + F5 - XL, size of the restore window
+Ctrl + F6 - Next Workbook Window
+Shift + Ctrl + F6 - Previous Workbook Window
+Ctrl + F7 - Move window
+Ctrl + F8 - Resize Window
+Ctrl + F9 - Minimize the workbook
+Ctrl + F10 - Maximize or Restore Window
+Ctrl + F11 - Inset 4.0 Macro sheet
+Ctrl + F1 - Open File
+Alt + F1 - Insert a graph
+Alt + F2 - Save As
+Alt + F4 - Output
+Alt + F8 - Macro dialog
+Alt + F11 - Visual Basic Editor
+Ctrl + Shift + F3 - Create a name using the names of row and column labels
+Ctrl + Shift + F6 - Previous Window
+Ctrl + Shift + F12 - Printing
+Alt + Shift + F1 - New spreadsheet
+Alt + Shift + F2 - Save
+Alt + = - AutoSum
+Ctrl + `- Toggle value / display of the formula
+Ctrl + Shift + A - Insert the argument names in the formula
+Alt + down arrow - automatic view list
+Alt + '- Format Style Dialog
+Ctrl + Shift + ~ - General Format
+Ctrl + Shift +! - Comma format
+Ctrl + Shift + @ - Time Format
+Ctrl + Shift + # - Date Format
+Ctrl + Shift + $ - Currency Format
+Ctrl + Shift +% - Percentage Format
+Ctrl + Shift + ^ - Exponential Format
+Ctrl + Shift + & - Place the border of the outline around the selected cells
+Ctrl + Shift + _ - Delete the border of the contour
+Ctrl + Shift + * - Select the current region
+Ctrl ++ - Insert
+Ctrl + - - Delete
+Ctrl + 1 - Format of the cell dialog
+Ctrl + 2 - Bold
+Ctrl + 3 - Italic
+Ctrl + 4 - Underlined
+Ctrl + 5 - Strikethrough
+Ctrl + 6 - Show / Hide Objects
+Ctrl + 7 - Show / Hide Standard Toolbar
+Ctrl + 8 - Toggle Outline symbols
+Ctrl + 9 - Hide lines
+Ctrl + 0 - Hide columns
+Ctrl + Shift + (- Show lines
+Ctrl + Shift +) - Show columns
+Alt or F10 - Activate the menu
+Ctrl + Tab - In the toolbar: Next toolbar
+Shift + Ctrl + Tab - In the toolbar: Previous toolbar
+Ctrl + Tab - In a workbook: activate the next workbook
+Shift + Ctrl + Tab - In a Binder: Activate Previous Binder
+Tab - Next tool
+Shift + Tab - Previous tool
+Enter - Make the order
+Shift + Ctrl + F - Font drop-down list
+Shift + Ctrl + F + F - Format Cell Dialog Box Font Tab
+Shift + Ctrl + P - Point Size Drop-down list.
+Manguay Center the reference centers

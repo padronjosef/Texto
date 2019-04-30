@@ -1,0 +1,16 @@
+var time = document.querySelectorAll('span.MaterialContent-duration')
+var visto= document.querySelectorAll('MaterialProgress-figure is-seen is-paid')
+
+window.counter = 0
+time.forEach(function(CONTADOR) {
+
+  var str = CONTADOR.innerHTML.split(':')[0]
+
+	if(str.length > 0){
+		window.counter += parseInt(str, 10)
+  } 
+
+  else { return }
+});
+
+console.log('Este Curso te tomara: ',( window.counter / 60).toFixed(2),'Horas')
