@@ -9,9 +9,10 @@ git merge origin/master --allow-unrelated-histories	= mesclar la rama que se esc
 
 git cherry-pick [SHA-1]			= mover el commit SHA-1 a la rama en la que se esta
 
-git remote add origin https o ssh	= agregar algo al repositorio de github
+git remote add origin https o ssh	= agregar origin
 git remote -v				= mirar el status
 git remote remove origin		= quitarlo
+git remote show origin			= mostrar origin
 
 git fetch origin master			= traer datos de "origin" de la rama "master"
 
