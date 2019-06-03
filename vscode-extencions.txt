@@ -1,0 +1,40 @@
+auto rename tag				formulahendry.auto-rename-tag
+
+bookmarks				alefragnani.bookmarks
+
+bracket pair colorized			coenraads.bracket-pair-colorizer
+
+color highlight				naumovs.color-highlight
+
+ES7 React/redus/graphQL			dsznajder.es7-r
+/React-Native snippets
+
+html snippets				abusaidm.html-snippets
+
+html to css autocompletion		solnurkarim.html-to-css-autocompletion
+
+import cost				wix.vscode-import-cost
+
+indent reainbow				oderwat.indent-rainbow
+
+language-stylus				sysoev.language-stylus
+
+live server				ritwickdey.liveserver
+
+monokai dark soda			adamcaviness.theme-monokai-dark-soda
+
+prettier - code formatter		esbenp.prettier-vscode
+
+rainbow brackets			2gua.rainbow-brackets
+
+settings sync				shan.code-settings-sync
+
+stylus					alan.stylus
+
+TODO highlight				wayou.vscode-todo-highlight
+
+svg viewer				wayou.vscode-todo-highlight
+
+vscode-icons				vscode-icons-team.vscode-icons
+
+WakaTime				wakatime.vscode-wakatime
