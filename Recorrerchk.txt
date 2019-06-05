@@ -1,0 +1,16 @@
+        function validarHF() {
+            for (i = 0; i < document.forms[0].length; i++) {
+                doc = document.forms[0].elements[i];
+                switch (doc.type) {
+                    case "checkbox":
+		            if (document.getElementById(chk).checked) {
+		                Hf.value = "1"
+		                txtV.style.backgroundColor = "#7fffd4";
+		            } else {
+		                Hf.value = "0"
+		                txtV.style.backgroundColor = "#ffffff"; //"#ffffff";
+		            }   
+                }                    
+                    
+            }
+        }

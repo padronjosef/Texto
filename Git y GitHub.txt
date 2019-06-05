@@ -86,7 +86,7 @@ git tag -f -a 0.1 -m "comentario" SHA1	= renombrar tag
 git config --global user.name "John Doe"
 comando 2: git config --global user.email johndoe@example.com
 
-ssh-keygen -t rsa -b 4096 -C "correo"	= crear llave ssd
+ssh-keygen -t rsa -b 4096 -C "josepadron.go@gmail.com"	= crear llave ssd
 
 clip < ~/.ssh/id_rsa.pub	= para compiarse la llave en windows
 pbcopy < ~/.ssh/id_rsa.pub
