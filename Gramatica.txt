@@ -1,0 +1,17 @@
+Halla: Verbo Encontrar	-> halla la solicion
+Haya: Verbo  haber	-> Lo que haya hecho
+Alla: Lugar		-> Alla en rusia
+
+Hay: Verbo  Haber	-> No hay nada aca
+Alli: Lugar		-> Alli en la cocina
+Ay: Dolor		-> Ay! me duele
+
+A ver: Verbo Vista	-> Vamos a ver eso
+Haber: Tener		-> Parece haber alguien
+
+ves: Verbo Ver		-> vamos a ver eso
+vez: veces		-> una vez vi eso
+
+Ha: Verbo haber		-> Ha encontrado algo
+A: Indica lugar/tiempo	-> A esa persona
+Ah: Expresar pena	-> Ah que pena con ustedes

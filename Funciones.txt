@@ -1,0 +1,12 @@
+// Normal Function
+functiondouble(x) {
+        return x * 2
+}
+
+// Arrow Function
+const double = (x) => {
+        return x * 2
+}
+
+// Short Arrow Function
+const double = x => x*2
