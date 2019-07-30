@@ -1,8 +1,9 @@
-Halla: Verbo Encontrar	-> halla la solicion
-Haya: Verbo  haber	-> Lo que haya hecho
+Halla: Verbo Encontrar	-> halla la solución
+Haya: Verbo haber	-> Lo que haya hecho
 Alla: Lugar		-> Alla en rusia
 
-Hay: Verbo  Haber	-> No hay nada aca
+Hay: Verbo Haber	-> No hay nada acá
+Ahí: Lugar		-> Nos vemos ahí
 Alli: Lugar		-> Alli en la cocina
 Ay: Dolor		-> Ay! me duele
 
@@ -15,3 +16,8 @@ vez: veces		-> una vez vi eso
 Ha: Verbo haber		-> Ha encontrado algo
 A: Indica lugar/tiempo	-> A esa persona
 Ah: Expresar pena	-> Ah que pena con ustedes
+
+Your public IP: 3.80.30.22
+Your port: 22
+Your login: root
+Your password: ecB1eb9;b8EfC00Cf

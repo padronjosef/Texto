@@ -1,0 +1,24 @@
+const = function = stateless
+
+NO manejan estado
+solo manejan informacion
+solo manejan funciones
+
+	import React from 'react';
+
+	const App = () => {
+		 return() 
+	}
+
+
+class= statefull
+
+Manejan estado
+usa render
+usa estado = this this.state
+
+	importReact, { Component } from 'react';
+	classAppextendsComponent{
+		 render() {
+			return ()
+		}
